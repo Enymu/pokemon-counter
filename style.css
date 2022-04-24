@@ -1,0 +1,71 @@
+html {
+    background: url("pikachu vs lucario.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    color: yellow;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: darkblue;
+}
+
+#main {
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+    margin: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#set {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#add {
+    margin: 10px;
+}
+
+#labelDiv {
+    margin: 5px
+}
+
+#currCount {
+    margin: 5px;
+}
+
+#addBtn {
+    width: 100px;
+    height: 20px;
+}
+
+#removeBtn {
+    width: 100px;
+    height: 20px;
+}
+
+#resetBtn {
+    width: 100px;
+    height: 20px;
+}
+
+#count {
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    font-size: 5em;
+}
+
+
